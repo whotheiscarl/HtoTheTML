@@ -1,0 +1,54 @@
+nav a 	{
+    background: darkred;  
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a[aria-current="page"] {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  nav a:hover, 
+  nav a:focus {
+    background: gold;
+    color: currentColor;
+  }
+
+ /* Runde Bilder */
+.rund {
+    border-radius: 50%;
+}
+
+a:link, a:visited {
+    background-color: lightgrey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: lightgrey;
+  }
+
+  body {
+    background-color: lightgrey;
+    color: black;
+  }
+  
+  h1 {
+    background-color: lightgrey;
+    color: white;
+  }
+  
+  div {
+    background-color: black;
+    color: white;
+  }
+
+  ol {
+   
+    margin-left: 300px;
+}
