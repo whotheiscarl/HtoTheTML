@@ -1,14 +1,4 @@
-nav a 	{
-    background: darkred;  
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav a[aria-current="page"] {
-    color: orange;
-    font-weight: bold;
-  }
-  
+
   nav a:hover, 
   nav a:focus {
     background: gold;
@@ -21,8 +11,8 @@ nav a 	{
 }
 
 a:link, a:visited {
-    background-color: lightgrey;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -30,25 +20,37 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: lightgrey;
+    background-color: blue;
   }
 
   body {
-    background-color: lightgrey;
-    color: black;
-  }
-  
-  h1 {
-    background-color: lightgrey;
+    background-color: white;
     color: white;
   }
   
+  h1 {
+    background-color: white;
+    color: black;
+  }
+  
   div {
-    background-color: black;
+    background-color: white;
     color: white;
   }
 
   ol {
    
     margin-left: 300px;
+}
+
+figure {
+   
+  position:absolute;
+  left:600px;
+  top:350px;
+  border:100px;
+}
+
+picture{
+  
 }
