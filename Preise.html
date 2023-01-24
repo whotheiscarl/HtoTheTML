@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,32 +16,46 @@
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="startseite.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="startseite.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="excel.html" class="nav-link">Excelkurs</a></li>
             <li class="nav-item"><a href="word.html" class="nav-link">Wordkurs</a></li>
             <li class="nav-item"><a href="powerpoint.html" class="nav-link">PowerPointkurs</a></li>
-            <li class="nav-item"><a href="Preise.html" class="nav-link">Preisübersicht</a></li>
+            <li class="nav-item"><a href="Preismodelle.html" class="nav-link">Preisübersicht</a></li>
+            <li class="nav-item"><a href="Preise.html" class="nav-link active" aria-current="page">Bestellung</a></li>
             <li class="nav-item"><a href="Hilfe.html" class="nav-link">Hilfe</a></li>
             <li class="nav-item"><a href="impressum.html" class="nav-link">Impressum</a></li>
           </ul>
         </header>
       </div>
 
+    <img src="./Picture5.svg" alt="Error(404)">
+</head>
+<body>
+<div>
+    <div>
+        <h1>Book a course</h1>
+        <form>
+            <label for="firstname">Firstname</label>
+            <input id="firstname" placeholder="provide firstname here" type="text">
+            
+            <label for="lastname">Lastname</label>
+            <input id="lastname" placeholder="lastname" type="text">
 
-    <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" width="1000" 
-    height="300"/>
-    
-    <body>
-        <h1>Prices</h1>
-        <p>Here you will find an overview of our prices for the best packages:</p>
-        <p>You can have the All in 1 Office Package for 129 €
-            which includes all the kurses we offer(Excel, PowerPoint and Word )</p>
-            <p>Alternatively you can Order the single target Packages:</p>
-    
-        <p> <a href="Preismodelle.html"> Excel package50 €</a></p>
-        <p> <a href="Preismodelle.html"> PowerPoint 50 €</a></p>
-        <p> <a href="Preismodelle.html"> Word package 50 €</a></p>
-        <p></p>
-    
-    </body>
+            <label for="email">E-mail</label>
+            <input id="email" placeholder="email" type="email">
+
+            <label for="email">Passwort</label>
+            <input id="email" placeholder="password" type="password">
+
+            <label for="street">Street</label>
+            <input id="street" placeholder="Musterstraße 12" type="text">
+            
+            <label for="city">City</label>
+            <input id="city" placeholder="1234 Frankfurt" type="text">
+
+            <button type="submit">Request</button>
+        </form>
+    </div>
+</div>
+</body>
 </html>
