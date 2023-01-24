@@ -1,33 +1,55 @@
+
+
+
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      </head>
         <title>Powerpoint Seminar</title> 
     </head>
     <body>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg"alt="PowerPoint" height="500" width="500">
-        <h1>PowerPoint</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg"alt="PowerPoint" height="200" width="200">
+        <h1 class="PowerPoint">Display 1</h1>
+
+        <figure>
+            <blockquote class="text-center">
+              <p>Hallo in diesem Kurs wirst du zum Powerpoint Profi !</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              Sagte einst einst Bill Gates  <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+
+   
 
 
-        Hallo in diesem Punkt wirst du zum Powerpoint Profi !
 
 
         <p>Du wirst in diesem Kurs folgende Skills lernen 
         <p></p>
-        <h2>PowerPoint Skills</h2>
+        <h1 class="PowerPoint">Display 2</h1>
         <p></p>
-        <ul>
-            <li>Master Folie</li>
-            <li>Design</li>
-            <li>Titelfolien</li>
-            <li>Wichtigste Funktionen</li>
-        </ul>
+        <ul class="list-group">
+            <li class="list-group-item">Master Folie </li>
+            <li class="list-group-item">Design</li>
+            <li class="list-group-item">Titelfolien</li>
+            <li class="list-group-item">Wichtige Funktionen </li>
+    
+          </ul>
+
+       
         <p></p>
         <p2>Danach kannst du folgende Sachen mit PowerPoint erstellen </p2>
         <ol>
-            <li>Kundenpräsentationen</li>
-            <li>Interne Präsentationen</li>
-            <li>Kundenaquise</li>
-            <li>Folien Templates erstellen</li>
+            <li class="list-group-item">Kundenpräsentationen </li>
+            <li class="list-group-item">Interne Präsentationen</li>
+            <li class="list-group-item">Kundenaquise</li>
+            <li class="list-group-item">Folie Template erstellen </li>
+           
         </ol>
     </br>
         <p>Falls sie fragen haben informieren sie sich direkt hier</p>
@@ -36,7 +58,7 @@
         </p>
       
 
-        <table>
+        <table class="table table-dark table-striped">
             <thead>
                 <tr>
                     <th>Wichtigste Funktionen </th>
@@ -55,8 +77,65 @@
             </tbody>
         </table>
 
+        <div class="card" style="width: 18rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg" class="card-img-top" alt="Bild">
+            <div class="card-body">
+              <h5 class="Power PowerPoint">Power PowerPoint</h5>
+              <p class="card-text">Hier geht es um die Software Power PowerPoint</p>
+              <a href="https://support.microsoft.com/de-de/office/was-ist-ein-folienmaster-b9abb2a0-7aef-4257-a14e-4329c904da54" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+        <button type="button" class="btn btn-primary"onclick="window.location.href='https://www.google.com/search?q=microsoft+aktien&rlz=1C1GCEA_enDE1026DE1026&oq=microsoft+aktien&aqs=chrome..69i57.4300j0j7&sourceid=chrome&ie=UTF-8';">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        
+        <button type="button" class="btn btn-link">Link</button>
+        
+
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+         
+          <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="https://support.microsoft.com/de-de/office/was-ist-ein-folienmaster-b9abb2a0-7aef-4257-a14e-4329c904da54">MasterFolie</option>
+            <option value="Tabellen">Tabellen</option>
+            <option value="Bilder">Bilder</option>
+          </select>
+
         <p>Hir gibts hilfreiche Tipps und Videomaterial </p>
         <a href="videokurseUNDtranskript.html"> Hier klicken</a>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
