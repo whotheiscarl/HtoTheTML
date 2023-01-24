@@ -12,7 +12,7 @@
 
 a:link, a:visited {
     background-color: white;
-    color: blue;
+    color: black;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -20,7 +20,7 @@ a:link, a:visited {
   }
   
   a:hover, a:active {
-    background-color: lightgrey;
+    background-color: blue;
   }
 
   body {
@@ -41,4 +41,12 @@ a:link, a:visited {
   ol {
    
     margin-left: 300px;
+}
+
+figure {
+   
+  position:absolute;
+  left:600px;
+  top:350px;
+  border:100px;
 }
